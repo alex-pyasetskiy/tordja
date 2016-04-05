@@ -1,0 +1,9 @@
+PH_HOME_DIR = %(PH_HOME_DIR)s
+SQLITE_DB = %(PH_HOME_DIR)s/var/db.sqlite3
+SERVER_ROOT = %(PH_HOME_DIR)s/polls_server/
+STATIC_ROOT = %(PH_HOME_DIR)s/polls_server/static/
+STATIC_URL = /static/
+SECRET_KEY = super_secret
+
+DJANGO_ADMINS = ('admin', 'admin@ad.com')
+DJANGO_LOGS_PATH = %(PH_HOME_DIR)s/var/log/server
