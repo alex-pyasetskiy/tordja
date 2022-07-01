@@ -7,7 +7,7 @@ gunicorn==19.4.5
 meld3==1.0.2
 singledispatch==3.4.0.3
 six==1.10.0
-supervisor==3.2.3
+supervisor==3.2.4
 tornado==4.3
 virtualenv==15.0.1
 configobj==5.0.6
